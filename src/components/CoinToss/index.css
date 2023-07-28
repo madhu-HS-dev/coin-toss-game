@@ -1,0 +1,70 @@
+/* Write your CSS here */
+
+.game-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-card-container {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+@media (min-width: 576px) {
+  .game-card-container {
+    width: 400px;
+    height: 500px;
+  }
+}
+
+.game-heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.game-description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.head-tail-image {
+  height: 180px;
+}
+
+button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+  border-radius: 6px;
+  width: 80px;
+  height: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.count-container {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
